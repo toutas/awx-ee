@@ -24,8 +24,6 @@ collections:
   - name: cisco.ucs
   - name: cloud.common
   - name: cloudscale_ch.cloud
-  - name: community.aws
-  - name: community.azure
   - name: community.ciscosmb
   - name: community.crypto
   - name: community.digitalocean
