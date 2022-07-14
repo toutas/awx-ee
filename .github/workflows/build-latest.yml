@@ -5,6 +5,7 @@ on:
     # build and push anytime commits are merged to devel
     branches:
       - devel
+  workflow_dispatch:
 
 jobs:
   build_and_push_latest:
