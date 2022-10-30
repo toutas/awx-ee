@@ -1,1 +1,2 @@
 git+https://github.com/ansible/ansible-builder.git@devel#egg=ansible-builder
+docker-compose==1.29.2
