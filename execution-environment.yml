@@ -18,6 +18,9 @@ dependencies:
       - name: theforeman.foreman
       - name: google.cloud
       - name: openstack.cloud
+      - name: community.aws
+      - name: community.docker
+      - name: community.general
       - name: community.vmware
       - name: ovirt.ovirt
       - name: kubernetes.core
