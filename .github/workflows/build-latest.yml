@@ -27,9 +27,9 @@ jobs:
         env:
           DOCKER_BUILDKIT: 1
         run: |
-          tox -e docker -- --tag=saltydk/awx-ee:dev
+          tox -e docker -- --tag=saltydk/awx-ee:latest
 
       - name: Push images
         run: |
          echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
-         docker push saltydk/awx-ee:dev
+         docker push saltydk/awx-ee:latest
