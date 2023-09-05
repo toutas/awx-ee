@@ -32,4 +32,4 @@ jobs:
       - name: Push images
         run: |
          echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
-         docker push quay.io/ansible/awx-ee:dev
+         docker push saltydk/awx-ee:dev
